@@ -12,7 +12,11 @@ commentBox.style.borderColor = 'red';
 const form = document.getElementById('comment-form');
 const submittedComment = document.getElementById('submitted-comment');
 function handleForm(event) {
+    if (count.innerHTML >140) {
+        event.preventDefault();
+    } else {
     event.preventDefault();
     submittedComment.innerHTML += ("<br>" + commentBox.value);
+    }
 }
 form.addEventListener('submit',handleForm);
