@@ -13,6 +13,6 @@ const form = document.getElementById('comment-form');
 const submittedComment = document.getElementById('submitted-comment');
 function handleForm(event) {
     event.preventDefault();
-    submittedComment.innerHTML += commentBox.value;
+    submittedComment.innerHTML += ("<br>" + commentBox.value);
 }
 form.addEventListener('submit',handleForm);
