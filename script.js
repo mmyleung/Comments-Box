@@ -9,3 +9,10 @@ commentBox.style.borderColor = 'red';
     commentBox.style.borderColor = 'blue';
 }
 }
+const form = document.getElementById('comment-form');
+const submittedComment = document.getElementById('submitted-comment');
+function handleForm(event) {
+    event.preventDefault();
+    submittedComment.innerHTML = commentBox.value;
+}
+form.addEventListener('submit',handleForm);

@@ -10,7 +10,7 @@
     <body>
         <h1>Comments</h1>
         <h4>Please leave your details and comment below!</h4>
-        <form>
+        <form id="comment-form">
             <div>
             <label for="name">Name:</label>
             <input type="text" id="name" placeholder="Enter your name" required>
@@ -24,7 +24,8 @@
             <textarea id="comment" rows="10" cols="50" required></textarea>
             <p><span>Character count: </span><span id="count">0</span><span>/140</span></p>
         </div>
-            <input type="submit" value="Submit">
+            <input id="submit" type="submit" value="Submit">
+            <p id="submitted-comment"></p>
         </form>
         <script src="script.js"></script>
     </body>
