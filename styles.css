@@ -16,21 +16,37 @@ form {
 input[type=text] {
     border:none;
     border-bottom:2px solid blue;
+    text-align: center;
 }
 
 input[type=email] {
     border:none;
     border-bottom:2px solid blue;
+    text-align: center;
 }
 
 textarea {
     border:2px solid blue;
+    margin:0;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+span {
+    width:100%;
+    white-space: nowrap;
+    font-size:small;
+    margin:0;
+    padding:0;
 }
 
 input[type=submit] {
+    border:none;
     border-radius: 15px;
-    background-color: blanchedalmond;
-    color:blue;
+    background-color: blue;
+    color:bisque;
     padding:15px;
     font-size: medium;
 }
@@ -42,3 +58,4 @@ div{
     text-align: center;
     
 }
+
