@@ -16,7 +16,7 @@ function handleForm(event) {
         event.preventDefault();
     } else {
     event.preventDefault();
-    submittedComment.innerHTML += ("<br>" + commentBox.value);
+    submittedComment.innerHTML += ("Thank you for submitting your comment: <br>" + commentBox.value);
     }
 }
 form.addEventListener('submit',handleForm);

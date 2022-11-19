@@ -1,5 +1,5 @@
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body, input {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1, h4 {
@@ -57,5 +57,9 @@ div{
     margin:15px auto;
     text-align: center;
     
+}
+
+#submitted-comment{
+    margin-top: 20px;
 }
 
